@@ -1,0 +1,56 @@
+{
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.iconTheme": "material-icon-theme",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll": true
+  },
+  "colorize.hide_current_line_decorations": false,
+  "colorize.include": [".tsx", ".jsx", ".ts", ".js"],
+  "colorize.languages": [
+    "typescriptreact",
+    "javascriptreact",
+    "javascript",
+    "typescript",
+    "css",
+    "sass",
+    "scss",
+    "less",
+    "pcss",
+    "sss",
+    "stylus",
+    "xml",
+    "svg",
+    "json",
+    "jsonc",
+    "yaml"
+  ],
+  "colorize.colorized_colors": ["HEXA", "RGB", "HSL"],
+  "colorize.enable_search_variables": false,
+
+  "cSpell.enabled": true,
+  "cSpell.language": "en,pt,pt_BR",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.startupEditor": "none",
+  "editor.fontSize": 16,
+  "prettier.withNodeModules": true,
+  "eslint.workingDirectories": [
+    {
+      "directory": "front",
+      "changeProcessCWD": true
+    }
+  ],
+  "git.ignoreLimitWarning": true
+}
